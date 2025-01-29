@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# Book Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The **Book Library** is a web application that allows users to browse, add, edit, and delete books in a digital library. Built using **React** with **TypeScript**, this project leverages **Tailwind CSS** for styling and **React Router DOM** for seamless navigation. The application provides an intuitive and responsive user interface, ensuring a smooth user experience across devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
 
-## Expanding the ESLint configuration
+- **Browse Books**: Users can view a list of books with details like title, author, and genre.
+- **Add New Books**: A user-friendly form allows users to add new books to the library.
+- **Edit Existing Books**: Users can modify book details easily.
+- **Delete Books**: Users can remove books from the library with a simple click.
+- **Responsive Design**: The app is fully responsive, providing an optimal viewing experience on mobile and desktop devices.
+- **TypeScript Support**: Strong typing for better code quality and developer experience.
+- **Routing**: Utilizes React Router for smooth navigation between different views.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that adds static typing.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Router DOM**: A collection of navigational components that compose declaratively with your application.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## System architecture 
+https://app.diagrams.net/#G1mRkMFmdpHzWYvwfSQdS9WgDBx6ny9X9w#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To set up the project locally, follow these steps:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/book-library.git
