@@ -21,6 +21,9 @@ The **Book Library** is a web application that allows users to browse, add, edit
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **React Router DOM**: A collection of navigational components that compose declaratively with your application.
 
+## System architecture 
+https://app.diagrams.net/#G1mRkMFmdpHzWYvwfSQdS9WgDBx6ny9X9w#%7B%22pageId%22%3A%22C5RBs43oDa-KdzZeNtuy%22%7D
+
 ## Installation
 
 To set up the project locally, follow these steps:
